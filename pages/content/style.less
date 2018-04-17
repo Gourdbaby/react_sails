@@ -1,0 +1,31 @@
+.content{
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    background: #fff;
+    border-radius: 4px;
+
+    p.title{
+        text-align: center;
+        font-size: 21px;
+    }
+    .content-item{
+        margin-top: 20px;
+        text-align: center;
+        >div{
+            display: inline-block;
+            width: 500px;
+        }
+        em{
+            margin-left: 20px;
+            cursor: pointer;
+            transition: all 0.2s ease-in;
+        }
+        .el-icon-plus:hover{
+            transform: rotate(180deg);
+        }
+        .el-icon-delete:hover{
+            transform: scale(1.2);
+        }
+    }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "react-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "webpack-dev-server --inline --color --progress --mode development",
+    "start:prod": "webpack --mode production"
+  },
+  "author": "huluwa",
+  "license": "ISC",
+  "dependencies": {
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.10",
+    "element-react": "^1.4.8",
+    "element-theme-default": "^1.4.13",
+    "expose-loader": "^0.7.5",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^1.1.11",
+    "glob": "^7.1.2",
+    "html-loader": "^0.5.5",
+    "jquery": "^2.1.4",
+    "less": "^3.0.1",
+    "less-loader": "^4.1.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "style-loader": "^0.20.3",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.1.1",
+    "webpack-dev-server": "^3.1.1"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "github:webpack-contrib/html-webpack-plugin",
+    "webpack-cli": "^2.0.11"
+  }
+}
