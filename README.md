@@ -1,3 +1,14 @@
+# Introduction
+    这是一个react的前端项目 该项目主要是和我的github上的另一个后端项目配合做的Helloworld
+    项目地址 [sails](https://github.com/huluwa123/sails)
+# usage
+    step 1 `git clone`
+    step 2 `cd react-frontend`
+    step 3 `npm install`
+    step 4 `npm run start:dev` (生产环境执行 `npm run start:prod`)
+
+
+
 ### mark
 * babel中的babel-plugin-transform-runtime和babel-polyfill 
 ***
